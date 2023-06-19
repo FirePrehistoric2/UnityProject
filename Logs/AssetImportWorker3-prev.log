@@ -15,7 +15,7 @@ D:/Year13AGRacer/UnityProject
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-56259
+62412
 Successfully changed project path to: D:/Year13AGRacer/UnityProject
 D:/Year13AGRacer/UnityProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ D:/Year13AGRacer/UnityProject
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [10244] Host "[IP] 192.168.101.137 [Port] 0 [Flags] 2 [Guid] 1501355098 [EditorId] 1501355098 [Version] 1048832 [Id] WindowsEditor(7,KHWS710) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [14960] Host "[IP] 192.168.101.137 [Port] 0 [Flags] 2 [Guid] 12997728 [EditorId] 12997728 [Version] 1048832 [Id] WindowsEditor(7,KHWS710) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [10244] Host "[IP] 192.168.101.137 [Port] 0 [Flags] 2 [Guid] 1501355098 [EditorId] 1501355098 [Version] 1048832 [Id] WindowsEditor(7,KHWS710) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [14960] Host "[IP] 192.168.101.137 [Port] 0 [Flags] 2 [Guid] 12997728 [EditorId] 12997728 [Version] 1048832 [Id] WindowsEditor(7,KHWS710) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 97.88 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 81.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.23f1 (213b516bf396)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Resources/UnitySubsystems
@@ -67,78 +67,76 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008649 seconds.
+Registered in 0.006723 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 88.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 79.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.865 seconds
+- Completed reload, in  0.627 seconds
 Domain Reload Profiling:
-	ReloadAssembly (865ms)
-		BeginReloadAssembly (95ms)
+	ReloadAssembly (627ms)
+		BeginReloadAssembly (89ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (573ms)
-			LoadAssemblies (93ms)
+		EndReloadAssembly (439ms)
+			LoadAssemblies (88ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (207ms)
+			SetupTypeCache (93ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (285ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (270ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (89ms)
+				RefreshPlugins (80ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (136ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
+				ProcessInitializeOnLoadAttributes (135ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004161 seconds.
+Registered in 0.003155 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Year13AGRacer\UnityProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Year13AGRacer\UnityProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.987 seconds
+- Completed reload, in  0.960 seconds
 Domain Reload Profiling:
-	ReloadAssembly (988ms)
-		BeginReloadAssembly (110ms)
+	ReloadAssembly (961ms)
+		BeginReloadAssembly (102ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (777ms)
-			LoadAssemblies (77ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (757ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (262ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (351ms)
+			SetupTypeCache (244ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (350ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (233ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (237ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -146,13 +144,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3210 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (184.9 KB). Loaded Objects now: 3687.
-Memory consumption went from 129.7 MB to 129.6 MB.
-Total: 2.877900 ms (FindLiveObjects: 0.264700 ms CreateObjectMapping: 0.078300 ms MarkObjects: 2.397000 ms  DeleteObjects: 0.136700 ms)
+Unloading 35 unused Assets / (129.7 KB). Loaded Objects now: 3690.
+Memory consumption went from 129.4 MB to 129.2 MB.
+Total: 3.011100 ms (FindLiveObjects: 0.294900 ms CreateObjectMapping: 0.081700 ms MarkObjects: 2.541000 ms  DeleteObjects: 0.092600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -164,6 +162,60 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9587.901479 seconds.
+  path: Assets/Import/materials/Cockpit_2.mat
+  artifactKey: Guid(2ef246b2d8181064cba93d1c9817e80d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/materials/Cockpit_2.mat using Guid(2ef246b2d8181064cba93d1c9817e80d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fbfd77c570c615ae909b8af453e8cfc') in 0.118586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SimpleWallColliders.fbx
+  artifactKey: Guid(fc9618295f0994b4991d247acd43e3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleWallColliders.fbx using Guid(fc9618295f0994b4991d247acd43e3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0fc3fc1400d705d44b397d1e41e986') in 0.051443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.814911 seconds.
+  path: Assets/PolygonSciFiCity/Materials/Alternates/PolygonScifi_01_D.mat
+  artifactKey: Guid(16baf78d55bdd7b44bf9d50edffd3241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiCity/Materials/Alternates/PolygonScifi_01_D.mat using Guid(16baf78d55bdd7b44bf9d50edffd3241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f251162fe96d878c402abbf08f57533') in 0.081104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.431883 seconds.
+  path: Assets/PolygonSciFiCity/Materials/Alternates/PolygonScifi_02_B.mat
+  artifactKey: Guid(a1260db7eb4efe7478246fda2858823d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiCity/Materials/Alternates/PolygonScifi_02_B.mat using Guid(a1260db7eb4efe7478246fda2858823d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae574c78409716c0390cded1572fe54') in 0.056394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.266051 seconds.
+  path: Assets/PolygonSciFiCity/Materials/Alternates/PolygonScifi_02_F.mat
+  artifactKey: Guid(225e7340f239c124c9bfac44ef8dbda2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiCity/Materials/Alternates/PolygonScifi_02_F.mat using Guid(225e7340f239c124c9bfac44ef8dbda2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3febf5526d2f87e70e3228fa4ef1b7d0') in 0.042624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.310339 seconds.
+  path: Assets/PolygonSciFiCity/Materials/Alternates/PolygonScifi_03_F.mat
+  artifactKey: Guid(86c886b27b55b4c4aaece649eea0a079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiCity/Materials/Alternates/PolygonScifi_03_F.mat using Guid(86c886b27b55b4c4aaece649eea0a079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff1e7a2d0dd0976d3d539920a44739eb') in 0.043482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.244674 seconds.
+  path: Assets/PolygonSciFiCity/Materials/Alternates/PolygonScifi_04_F.mat
+  artifactKey: Guid(7910c4de4f114e343a611b5cdfb7b8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiCity/Materials/Alternates/PolygonScifi_04_F.mat using Guid(7910c4de4f114e343a611b5cdfb7b8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d539e9b0b09443b9ba6e8c237021e14') in 0.042177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonSciFiCity/Materials/Misc/PolygonSciFi_Billboards_Non_Emissive.mat
+  artifactKey: Guid(2e709aec687010148bd7e116471c0d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiCity/Materials/Misc/PolygonSciFi_Billboards_Non_Emissive.mat using Guid(2e709aec687010148bd7e116471c0d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f70a12a8d2dc16bfe6921bb9e551b629') in 0.013695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.093304 seconds.
+  path: Assets/PolygonSciFiCity/Materials/Misc/SimpleSky.mat
+  artifactKey: Guid(e68f77e240a7f8643b5cc4253dc37516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiCity/Materials/Misc/SimpleSky.mat using Guid(e68f77e240a7f8643b5cc4253dc37516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efbc5fe7fa74681d4a5333692a6cbd16') in 0.013378 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
