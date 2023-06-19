@@ -10,11 +10,12 @@ public class PlayerInput : MonoBehaviour
 	public string horizontalAxisName = "Horizontal";    //The name of the rudder axis
 	public string brakingKey = "Brake";                 //The name of the brake button
 
+
 	//We hide these in the inspector because we want 
 	//them public but we don't want people trying to change them
-	[HideInInspector] public float thruster;			//The current thruster value
-	[HideInInspector] public float rudder;				//The current rudder value
-	[HideInInspector] public bool isBraking;			//The current brake value
+	public float thruster;			//The current thruster value
+	public float rudder;				//The current rudder value
+	public bool isBraking;			//The current brake value
 
 	void Update()
 	{

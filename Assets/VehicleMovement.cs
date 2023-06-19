@@ -12,6 +12,7 @@ public class VehicleMovement : MonoBehaviour
 	public float slowingVelFactor = .99f;   //The percentage of velocity the ship maintains when not thrusting (e.g., a value of .99 means the ship loses 1% velocity when not thrusting)
 	public float brakingVelFactor = .95f;   //The percentage of velocty the ship maintains when braking
 	public float angleOfRoll = 30f;			//The angle that the ship "banks" into a turn
+	public float turnForce = 1f;			//force of angle turn lol
 
 	[Header("Hover Settings")]
 	public float hoverHeight = 1.5f;        //The height the ship maintains when hovering
@@ -126,8 +127,7 @@ public class VehicleMovement : MonoBehaviour
 	{
 		//Calculate the yaw torque based on the rudder and current angular velocity
         
-		float rotationTorque = (input.rudder - rigidBody.angularVelocity.y) ;
-        Debug.Log(rotationTorque);
+		float rotationTorque = (input.rudder * turnForce - rigidBody.angularVelocity.y) ;
 		//Apply the torque to the ship's Y axis
 		rigidBody.AddRelativeTorque(0f, rotationTorque, 0f, ForceMode.VelocityChange);
 
