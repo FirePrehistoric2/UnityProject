@@ -18,13 +18,13 @@ public class ShipUI : MonoBehaviour
 			return;
 
 		//Update the current lap text
-		currentLapText.text = currentLap + "/" + numberOfLaps;
+		currentLapText.text = "Lap " + currentLap + "/" + numberOfLaps;
 	}
 
 	public void SetSpeedDisplay(float currentSpeed)
 	{
 		//Turn the current speed into an integer and set it in the UI
 		int speed = (int)currentSpeed;
-		currentSpeedText.text = speed.ToString();
+		currentSpeedText.text = speed.ToString() + " m/s";
 	}
 }
