@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class VehicleMovement : MonoBehaviour
 {
+	public GameManager gameManager;
 	public float speed;						//The current forward speed of the ship
 
 	[Header("Drive Settings")]
@@ -126,7 +127,9 @@ public class VehicleMovement : MonoBehaviour
 	void CalculatePropulsion()
 	{
 		//Calculate the yaw torque based on the rudder and current angular velocity
-        
+        if (gameManager.canRace == false){
+			return;
+		}
 		float rotationTorque = (input.rudder * turnForce - rigidBody.angularVelocity.y) ;
 		//Apply the torque to the ship's Y axis
 		rigidBody.AddRelativeTorque(0f, rotationTorque, 0f, ForceMode.VelocityChange);

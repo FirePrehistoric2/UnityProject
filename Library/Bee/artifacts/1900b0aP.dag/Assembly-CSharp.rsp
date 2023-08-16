@@ -310,6 +310,7 @@
 "Assets/Scripts/PIDController.cs"
 "Assets/Scripts/PlayerInput.cs"
 "Assets/Scripts/ShipUI.cs"
+"Assets/Scripts/StartGame.cs"
 "Assets/Scripts/VehicleAVFX.cs"
 "Assets/Scripts/VehicleMovement.cs"
 -langversion:9.0

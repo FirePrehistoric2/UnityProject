@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+	public bool canRace = false;
 	//The game manager holds a public static reference to itself. This is often referred to
 	//as being a "singleton" and allows it to be access from all other objects in the scene.
 	//This should be used carefully and is generally reserved for "manager" type objects

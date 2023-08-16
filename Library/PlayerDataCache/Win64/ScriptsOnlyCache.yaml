@@ -6,6 +6,8 @@ ScriptsOnlyBuild:
     - LapChecker
     - LapTimeUI
     - PlayerInput
+    - ShipUI
+    - StartGame
     - VehicleMovement
     - cameraController
     Unity.Rider.Editor.dll:
@@ -15,6 +17,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshPro
     - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -25,6 +28,7 @@ ScriptsOnlyBuild:
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Text
   serializedClasses:
     Assembly-CSharp:
     - PIDController
@@ -51,10 +55,11 @@ ScriptsOnlyBuild:
     - UnityEngine.TextCore.GlyphMetrics
     - UnityEngine.TextCore.GlyphRect
     UnityEngine.UI:
+    - UnityEngine.UI.FontData
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
   methodsToPreserve: []
   sceneClasses:
-    Assets/Scenes/Map2.unity:
+    Assets/Scenes/Map1.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -96,46 +101,50 @@ ScriptsOnlyBuild:
     - Class: 111
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1552}
+      Script: {instanceID: 1654}
     - Class: 114
-      Script: {instanceID: 1554}
+      Script: {instanceID: 1656}
     - Class: 114
-      Script: {instanceID: 1810}
+      Script: {instanceID: 1910}
     - Class: 114
-      Script: {instanceID: 1994}
+      Script: {instanceID: 2094}
     - Class: 114
-      Script: {instanceID: 2218}
+      Script: {instanceID: 2318}
     - Class: 114
-      Script: {instanceID: 2640}
+      Script: {instanceID: 2414}
     - Class: 114
-      Script: {instanceID: 2842}
+      Script: {instanceID: 2740}
     - Class: 114
-      Script: {instanceID: 4022}
+      Script: {instanceID: 2942}
     - Class: 114
-      Script: {instanceID: 4154}
+      Script: {instanceID: 3680}
     - Class: 114
-      Script: {instanceID: 4354}
+      Script: {instanceID: 4122}
     - Class: 114
-      Script: {instanceID: 4418}
+      Script: {instanceID: 4254}
     - Class: 114
-      Script: {instanceID: 5136}
+      Script: {instanceID: 4454}
     - Class: 114
-      Script: {instanceID: 5860}
+      Script: {instanceID: 4518}
     - Class: 114
-      Script: {instanceID: 7046}
+      Script: {instanceID: 5238}
     - Class: 114
-      Script: {instanceID: 7462}
+      Script: {instanceID: 5796}
     - Class: 114
-      Script: {instanceID: 7562}
+      Script: {instanceID: 5964}
+    - Class: 114
+      Script: {instanceID: 7150}
+    - Class: 114
+      Script: {instanceID: 7566}
+    - Class: 114
+      Script: {instanceID: 7666}
+    - Class: 114
+      Script: {instanceID: 73632}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
-    - Class: 134
-      Script: {instanceID: 0}
     - Class: 136
-      Script: {instanceID: 0}
-    - Class: 137
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -154,12 +163,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: StandaloneInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: a1aa98c78061c6f03a8c124cda576e67
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: CanvasScaler
   - hash:
       serializedVersion: 2
       Hash: 699619b86d9359741a4f58540298c80b
@@ -222,7 +225,7 @@ ScriptsOnlyBuild:
     className: CinemachineTriggerAction
   - hash:
       serializedVersion: 2
-      Hash: 6b60cab165529b99967323a97f8fab0a
+      Hash: c4f568fc78cf66b1451060594b2196a3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: VehicleMovement
@@ -912,6 +915,12 @@ ScriptsOnlyBuild:
     className: CinemachineBrain
   - hash:
       serializedVersion: 2
+      Hash: a1aa98c78061c6f03a8c124cda576e67
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
       Hash: df21ffd1864551a3e43410f28754a73e
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
@@ -1206,7 +1215,7 @@ ScriptsOnlyBuild:
     className: StateMachine
   - hash:
       serializedVersion: 2
-      Hash: 16be1d426532aa2df0eb70719d26e41b
+      Hash: 032363fe2a2f014cace8dc616a26187f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManager
@@ -1270,7 +1279,13 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: c4268f7e0d3220ef5ab9ccf2777344b9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: StartGame
   platform: 19
   scenePathNames:
-  - Assets/Scenes/Map2.unity
-  playerPath: D:/Year13AGRacer/Builds/UnityProject.exe
+  - Assets/Scenes/Map1.unity
+  playerPath: D:/Year13AGRacer/Builds/FreeFlowV1.5.exe
