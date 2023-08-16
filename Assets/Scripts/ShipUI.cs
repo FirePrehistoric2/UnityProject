@@ -25,6 +25,6 @@ public class ShipUI : MonoBehaviour
 	{
 		//Turn the current speed into an integer and set it in the UI
 		int speed = (int)currentSpeed;
-		currentSpeedText.text = speed.ToString() + " m/s";
+		currentSpeedText.text = speed.ToString() + " KPH";
 	}
 }
