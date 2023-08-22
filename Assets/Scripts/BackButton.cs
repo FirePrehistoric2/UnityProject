@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEditor.SceneManagement;
 
-public class Back : MonoBehaviour
+public class BackButton : MonoBehaviour
 {
    
     public void BackToMenu()

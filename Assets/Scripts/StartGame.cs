@@ -11,6 +11,9 @@ public class StartGame : MonoBehaviour
     public GameManager gameManager;
     public float timeLeft = 3.0f;
     public Text startText; // used for showing countdown from 3, 2, 1 
+    
+
+    
 
     void Update()
     {
@@ -18,7 +21,6 @@ public class StartGame : MonoBehaviour
         startText.text = (timeLeft).ToString("0");
         
         if (timeLeft < 0)
-         
         {
             gameManager.canRace = true;
            startText.text = ""; //Do something useful or Load a new game scene depending on your use-case

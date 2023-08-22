@@ -1,4 +1,4 @@
-﻿//This script manages the timing and flow of the game. It is also responsible for telling
+//This script manages the timing and flow of the game. It is also responsible for telling
 //the UI when and how to update
 
 using System.Collections;
@@ -57,7 +57,6 @@ public class GameManager : MonoBehaviour
 
 		//Wait a little while to let everything initialize
 		yield return new WaitForSeconds(.1f);
-
 		//Initialize the lapTimes array and set that the race has begun
 		lapTimes = new float[numberOfLaps];
 		raceHasBegun = true;
@@ -69,7 +68,7 @@ public class GameManager : MonoBehaviour
 		UpdateUI_Speed ();
 
 		//If we have an active game...
-		if (IsActiveGame())
+		if (IsActiveGame() && raceHasBegun)
 		{
 			//...calculate the time for the lap and update the UI
 			lapTimes[currentLap] += Time.deltaTime;

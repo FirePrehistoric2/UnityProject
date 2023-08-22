@@ -32,5 +32,12 @@ public class MainMenu : MonoBehaviour
 
     }
 
+     public void KnownBugs()
+
+    {
+
+       SceneManager.LoadScene("KnownBugs");
+
+    }
 
 }

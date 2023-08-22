@@ -12,10 +12,12 @@ public class LapTimeUI : MonoBehaviour
 	void Awake()
 	{
 		//Go through the UI elements and clear our their text
-		for (int i = 0; i < lapTimeLabels.Length; i++)
-			lapTimeLabels[i].text = "";
+		{
+			for (int i = 0; i < lapTimeLabels.Length; i++)
+				lapTimeLabels[i].text = "";
 
-		finalTimeLabel.text = "";
+			finalTimeLabel.text = "";
+		}
 	}
 
 	public void SetLapTime(int lapNumber, float lapTime)
