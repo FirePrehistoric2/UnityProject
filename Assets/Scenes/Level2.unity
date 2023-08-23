@@ -10983,21 +10983,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8723588488969062153, guid: fe381a68d0c31254d843cc28acda0508, type: 3}
   m_PrefabInstance: {fileID: 505297189}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &505297192 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7345773090467480891, guid: fe381a68d0c31254d843cc28acda0508, type: 3}
-  m_PrefabInstance: {fileID: 505297189}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &505297193 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1527703050095441505, guid: fe381a68d0c31254d843cc28acda0508, type: 3}
-  m_PrefabInstance: {fileID: 505297189}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &505297194 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3788739240657618188, guid: fe381a68d0c31254d843cc28acda0508, type: 3}
-  m_PrefabInstance: {fileID: 505297189}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &505297195 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2627671597207722126, guid: fe381a68d0c31254d843cc28acda0508, type: 3}
@@ -11056,38 +11041,6 @@ MonoBehaviour:
   terminalVelocity: 100
   hoverGravity: 40
   fallGravity: 0.5
---- !u!111 &505297198
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 505297193}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 2b0e1a61fdae7e840b793832214c0e7d, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 2b0e1a61fdae7e840b793832214c0e7d, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
---- !u!111 &505297199
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 505297194}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 2b0e1a61fdae7e840b793832214c0e7d, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 2b0e1a61fdae7e840b793832214c0e7d, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!64 &505297200
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24293,22 +24246,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9c7e8190761130140ad6d4d31e4fe3e2, type: 3}
---- !u!111 &1062859455
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 505297192}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 2b0e1a61fdae7e840b793832214c0e7d, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 2b0e1a61fdae7e840b793832214c0e7d, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!1001 &1063034282
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37235,7 +37172,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -411, y: -242}
+  m_AnchoredPosition: {x: -384, y: -242}
   m_SizeDelta: {x: 300, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1629314808
@@ -44298,7 +44235,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 487, y: 250}
+  m_AnchoredPosition: {x: 444, y: 250}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1955632716
