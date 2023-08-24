@@ -11,7 +11,7 @@ public class ReturnToMenuGame : MonoBehaviour
 
     {
 
-        SceneManager.LoadScene("Level Select");
+        SceneManager.LoadScene("LV2Medals");
     
     }
 

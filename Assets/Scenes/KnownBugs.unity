@@ -397,15 +397,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Timer starting before countdown finishes
+  m_text: 'Timer starting before countdown finishes (Take 3.7 seconds off your time
+    to be accurate)
 
 
     Coming To a halt when landing
 
 
 
-    Will
-    be Updated in Future'
+    Will be Updated in
+    Future'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e6e7495be1460ff43938f366d8c4f3c8, type: 2}
   m_sharedMaterial: {fileID: -6941990947302900873, guid: e6e7495be1460ff43938f366d8c4f3c8, type: 2}
