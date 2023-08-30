@@ -11,7 +11,6 @@ public class cameraController : MonoBehaviour
 
     private void Start() {
         Player = GameObject.FindGameObjectWithTag("CameraTarget");
-        child = Player.transform.Find("CameraConstraint").gameObject;
         
     }
    
